@@ -1,6 +1,7 @@
 # Automated Telecom Customer Churn Analysis with Actionable Insights
 
 This project is aimed at helping telecommunications companies combat customer churn by implementing a robust and automated analysis pipeline on the AWS cloud platform. By leveraging advanced technologies and data analytics, the project enables proactive identification of churn risks and facilitates data-driven decision-making for enhanced customer retention strategies.
+![Untitled design](https://github.com/ritikdhame/Automated-Telecom-Customer-Churn-Analysis/assets/7029092/5be08781-d006-4901-9bea-05a49cae6d4c)
 
 ## Features
 
@@ -9,9 +10,14 @@ This project is aimed at helping telecommunications companies combat customer ch
 - **Data Extraction:** Customer data is extracted seamlessly from two primary sources:
     - **S3 Buckets:** Historical customer data is stored in scalable and cost-effective S3 buckets.
     - **Redshift Database:** Real-time customer activity data resides in the Redshift database for immediate analysis.
+![Visual - Editor - AWS Glue Studio](https://github.com/ritikdhame/Automated-Telecom-Customer-Churn-Analysis/assets/7029092/a637801b-c9a2-4945-afea-40ef33f244c6)
+
 - **Automating Data Discovery:** AWS Glue serves as the data orchestration engine, automatically defining data structures and discovering new datasets within designated S3 buckets through AWS Glue Crawlers.
 - **Orchestration with Airflow:** Airflow, a robust workflow management tool, schedules extraction tasks from S3 and Redshift at regular intervals to ensure consistent churn analysis cycles.
+![my_dag - Grid - Airflow](https://github.com/ritikdhame/Automated-Telecom-Customer-Churn-Analysis/assets/7029092/b5f0d88b-69ff-4903-8486-66f02da624b1)
+
 - **Data Transformation (Optional):** The pipeline supports data transformation tasks to clean, engineer features, or preprocess data before churn analysis.
+
 - **Data Loading:** Processed data is strategically loaded back into Redshift for churn analysis and visualization.
 
 ### Actionable Insights with Tableau
@@ -19,6 +25,11 @@ This project is aimed at helping telecommunications companies combat customer ch
 - **Interactive Dashboard:** A Tableau dashboard offers interactive visualization of key customer churn metrics.
 - **Segmentation:** Users can segment data by various attributes to gain insights into the top reasons driving customer churn.
 - **Geographical Visualization:** The dashboard potentially allows for geographical distribution visualization to analyze churn trends across different regions.
+
+
+To view the Tableau dashboard, click on the following link:
+[Automated Telecom Customer Churn Analysis Dashboard](https://public.tableau.com/views/AutomatedTelecomCustomerChurnAnalysis/Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+
 
 ## Benefits
 
