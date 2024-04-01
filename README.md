@@ -30,6 +30,12 @@ This project is aimed at helping telecommunications companies combat customer ch
 To view the Tableau dashboard, click on the following link:
 [Automated Telecom Customer Churn Analysis Dashboard](https://public.tableau.com/views/AutomatedTelecomCustomerChurnAnalysis/Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
+![file_2024-03-31_22 57 32](https://github.com/ritikdhame/Automated-Telecom-Customer-Churn-Analysis/assets/7029092/9067c107-72d7-4a32-a520-579f9dbb55fb)
+
+
+Also tried to build a similar dashboard by connecting the redshift warehouse with Quicksight :
+<img width="613" alt="Screenshot 2024-03-31 at 9 16 34 PM" src="https://github.com/ritikdhame/Automated-Telecom-Customer-Churn-Analysis/assets/7029092/c11f95e9-d76f-48e6-b250-f63ede83ef5c">
+
 
 ## Benefits
 
